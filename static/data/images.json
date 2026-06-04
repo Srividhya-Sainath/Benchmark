@@ -6,7 +6,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1003691_ADH_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1003691_ADH_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1003691_ADH_1.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -16,7 +16,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1598_N_2.png",
       "hf_path": "BRACS/ROI/test_BRACS_1598_N_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1598_N_2.png",
       "metadata": {
         "label": "Normal"
       }
@@ -26,7 +26,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1599_N_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1599_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1599_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -36,7 +36,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1601_N_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1601_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1601_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -46,7 +46,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1844_ADH_2.png",
       "hf_path": "BRACS/ROI/test_BRACS_1844_ADH_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1844_ADH_2.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -56,7 +56,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1855_N_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1855_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1855_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -66,7 +66,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1855_N_2.png",
       "hf_path": "BRACS/ROI/test_BRACS_1855_N_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1855_N_2.png",
       "metadata": {
         "label": "Normal"
       }
@@ -76,7 +76,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1856_ADH_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1856_ADH_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1856_ADH_1.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -86,7 +86,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1941_FEA_3.png",
       "hf_path": "BRACS/ROI/test_BRACS_1941_FEA_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1941_FEA_3.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -96,7 +96,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1943_FEA_10.png",
       "hf_path": "BRACS/ROI/test_BRACS_1943_FEA_10.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1943_FEA_10.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -106,7 +106,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_1943_FEA_19.png",
       "hf_path": "BRACS/ROI/test_BRACS_1943_FEA_19.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_1943_FEA_19.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -116,7 +116,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_301_IC_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_301_IC_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_301_IC_1.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -126,7 +126,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_305_IC_3.png",
       "hf_path": "BRACS/ROI/test_BRACS_305_IC_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_305_IC_3.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -136,7 +136,7 @@
       "dataset": "BRACS",
       "filename": "test_BRACS_310_IC_12.png",
       "hf_path": "BRACS/ROI/test_BRACS_310_IC_12.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/test_BRACS_310_IC_12.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -146,7 +146,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1003716_N_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1003716_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1003716_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -156,7 +156,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1003717_N_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1003717_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1003717_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -166,7 +166,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1239_FEA_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1239_FEA_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1239_FEA_4.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -176,7 +176,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1240_PB_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1240_PB_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1240_PB_2.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -186,7 +186,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1240_PB_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1240_PB_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1240_PB_4.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -196,7 +196,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1247_DCIS_10.png",
       "hf_path": "BRACS/ROI/train_BRACS_1247_DCIS_10.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1247_DCIS_10.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -206,7 +206,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1250_FEA_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1250_FEA_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1250_FEA_1.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -216,7 +216,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1251_PB_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1251_PB_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1251_PB_1.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -226,7 +226,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1255_PB_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1255_PB_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1255_PB_3.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -236,7 +236,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1255_PB_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1255_PB_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1255_PB_5.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -246,7 +246,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1270_UDH_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1270_UDH_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1270_UDH_4.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -256,7 +256,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1272_IC_18.png",
       "hf_path": "BRACS/ROI/train_BRACS_1272_IC_18.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1272_IC_18.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -266,7 +266,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1293_IC_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1293_IC_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1293_IC_3.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -276,7 +276,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1319_FEA_19.png",
       "hf_path": "BRACS/ROI/train_BRACS_1319_FEA_19.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1319_FEA_19.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -286,7 +286,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1320_PB_11.png",
       "hf_path": "BRACS/ROI/train_BRACS_1320_PB_11.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1320_PB_11.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -296,7 +296,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1320_PB_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1320_PB_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1320_PB_3.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -306,7 +306,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1324_PB_6.png",
       "hf_path": "BRACS/ROI/train_BRACS_1324_PB_6.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1324_PB_6.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -316,7 +316,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1329_PB_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1329_PB_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1329_PB_2.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -326,7 +326,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1409_UDH_6.png",
       "hf_path": "BRACS/ROI/train_BRACS_1409_UDH_6.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1409_UDH_6.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -336,7 +336,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1485_PB_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1485_PB_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1485_PB_2.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -346,7 +346,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1489_DCIS_12.png",
       "hf_path": "BRACS/ROI/train_BRACS_1489_DCIS_12.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1489_DCIS_12.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -356,7 +356,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1489_DCIS_15.png",
       "hf_path": "BRACS/ROI/train_BRACS_1489_DCIS_15.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1489_DCIS_15.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -366,7 +366,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1489_DCIS_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1489_DCIS_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1489_DCIS_3.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -376,7 +376,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1489_DCIS_7.png",
       "hf_path": "BRACS/ROI/train_BRACS_1489_DCIS_7.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1489_DCIS_7.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -386,7 +386,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1491_DCIS_10.png",
       "hf_path": "BRACS/ROI/train_BRACS_1491_DCIS_10.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1491_DCIS_10.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -396,7 +396,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1491_DCIS_21.png",
       "hf_path": "BRACS/ROI/train_BRACS_1491_DCIS_21.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1491_DCIS_21.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -406,7 +406,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1491_DCIS_23.png",
       "hf_path": "BRACS/ROI/train_BRACS_1491_DCIS_23.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1491_DCIS_23.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -416,7 +416,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1491_DCIS_32.png",
       "hf_path": "BRACS/ROI/train_BRACS_1491_DCIS_32.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1491_DCIS_32.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -426,7 +426,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1494_ADH_26.png",
       "hf_path": "BRACS/ROI/train_BRACS_1494_ADH_26.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1494_ADH_26.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -436,7 +436,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1494_ADH_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1494_ADH_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1494_ADH_5.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -446,7 +446,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1507_N_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1507_N_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1507_N_2.png",
       "metadata": {
         "label": "Normal"
       }
@@ -456,7 +456,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1507_N_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1507_N_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1507_N_3.png",
       "metadata": {
         "label": "Normal"
       }
@@ -466,7 +466,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1507_N_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1507_N_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1507_N_5.png",
       "metadata": {
         "label": "Normal"
       }
@@ -476,7 +476,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1507_N_9.png",
       "hf_path": "BRACS/ROI/train_BRACS_1507_N_9.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1507_N_9.png",
       "metadata": {
         "label": "Normal"
       }
@@ -486,7 +486,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1510_FEA_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1510_FEA_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1510_FEA_1.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -496,7 +496,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1510_FEA_18.png",
       "hf_path": "BRACS/ROI/train_BRACS_1510_FEA_18.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1510_FEA_18.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -506,7 +506,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1510_FEA_9.png",
       "hf_path": "BRACS/ROI/train_BRACS_1510_FEA_9.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1510_FEA_9.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -516,7 +516,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1512_DCIS_18.png",
       "hf_path": "BRACS/ROI/train_BRACS_1512_DCIS_18.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1512_DCIS_18.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -526,7 +526,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1582_PB_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1582_PB_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1582_PB_2.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -536,7 +536,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1596_UDH_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1596_UDH_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1596_UDH_3.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -546,7 +546,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1596_UDH_6.png",
       "hf_path": "BRACS/ROI/train_BRACS_1596_UDH_6.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1596_UDH_6.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -556,7 +556,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1606_UDH_12.png",
       "hf_path": "BRACS/ROI/train_BRACS_1606_UDH_12.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1606_UDH_12.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -566,7 +566,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1618_UDH_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1618_UDH_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1618_UDH_5.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -576,7 +576,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1639_IC_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1639_IC_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1639_IC_4.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -586,7 +586,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1640_PB_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1640_PB_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1640_PB_1.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -596,7 +596,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1641_N_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1641_N_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1641_N_3.png",
       "metadata": {
         "label": "Normal"
       }
@@ -606,7 +606,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1641_N_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1641_N_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1641_N_4.png",
       "metadata": {
         "label": "Normal"
       }
@@ -616,7 +616,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1772_PB_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1772_PB_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1772_PB_1.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -626,7 +626,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1773_FEA_15.png",
       "hf_path": "BRACS/ROI/train_BRACS_1773_FEA_15.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1773_FEA_15.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -636,7 +636,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1780_UDH_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1780_UDH_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1780_UDH_1.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -646,7 +646,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1780_UDH_14.png",
       "hf_path": "BRACS/ROI/train_BRACS_1780_UDH_14.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1780_UDH_14.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -656,7 +656,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1782_UDH_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1782_UDH_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1782_UDH_4.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -666,7 +666,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1783_UDH_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1783_UDH_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1783_UDH_3.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -676,7 +676,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1815_FEA_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1815_FEA_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1815_FEA_1.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -686,7 +686,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1837_UDH_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1837_UDH_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1837_UDH_1.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -696,7 +696,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1838_FEA_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1838_FEA_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1838_FEA_5.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -706,7 +706,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1857_FEA_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1857_FEA_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1857_FEA_4.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -716,7 +716,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1858_FEA_4.png",
       "hf_path": "BRACS/ROI/train_BRACS_1858_FEA_4.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1858_FEA_4.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -726,7 +726,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1860_ADH_12.png",
       "hf_path": "BRACS/ROI/train_BRACS_1860_ADH_12.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1860_ADH_12.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -736,7 +736,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1863_ADH_12.png",
       "hf_path": "BRACS/ROI/train_BRACS_1863_ADH_12.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1863_ADH_12.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -746,7 +746,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1871_FEA_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1871_FEA_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1871_FEA_2.png",
       "metadata": {
         "label": "Flat Epithelial Atypia"
       }
@@ -756,7 +756,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1882_ADH_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1882_ADH_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1882_ADH_2.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -766,7 +766,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1882_ADH_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1882_ADH_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1882_ADH_3.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -776,7 +776,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1899_ADH_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1899_ADH_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1899_ADH_1.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -786,7 +786,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1901_PB_1.png",
       "hf_path": "BRACS/ROI/train_BRACS_1901_PB_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1901_PB_1.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -796,7 +796,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1911_ADH_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1911_ADH_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1911_ADH_5.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -806,7 +806,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1912_ADH_5.png",
       "hf_path": "BRACS/ROI/train_BRACS_1912_ADH_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1912_ADH_5.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -816,7 +816,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1918_UDH_11.png",
       "hf_path": "BRACS/ROI/train_BRACS_1918_UDH_11.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1918_UDH_11.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -826,7 +826,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1918_UDH_8.png",
       "hf_path": "BRACS/ROI/train_BRACS_1918_UDH_8.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1918_UDH_8.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -836,7 +836,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1919_DCIS_6.png",
       "hf_path": "BRACS/ROI/train_BRACS_1919_DCIS_6.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1919_DCIS_6.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -846,7 +846,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1921_DCIS_2.png",
       "hf_path": "BRACS/ROI/train_BRACS_1921_DCIS_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1921_DCIS_2.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -856,7 +856,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1925_ADH_7.png",
       "hf_path": "BRACS/ROI/train_BRACS_1925_ADH_7.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1925_ADH_7.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -866,7 +866,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1929_DCIS_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_1929_DCIS_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1929_DCIS_3.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -876,7 +876,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1933_ADH_15.png",
       "hf_path": "BRACS/ROI/train_BRACS_1933_ADH_15.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1933_ADH_15.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -886,7 +886,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_1947_DCIS_8.png",
       "hf_path": "BRACS/ROI/train_BRACS_1947_DCIS_8.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_1947_DCIS_8.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -896,7 +896,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_281_IC_28.png",
       "hf_path": "BRACS/ROI/train_BRACS_281_IC_28.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_281_IC_28.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -906,7 +906,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_754_IC_11.png",
       "hf_path": "BRACS/ROI/train_BRACS_754_IC_11.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_754_IC_11.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -916,7 +916,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_756_IC_8.png",
       "hf_path": "BRACS/ROI/train_BRACS_756_IC_8.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_756_IC_8.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -926,7 +926,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_758_PB_3.png",
       "hf_path": "BRACS/ROI/train_BRACS_758_PB_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_758_PB_3.png",
       "metadata": {
         "label": "Pathological Benign"
       }
@@ -936,7 +936,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_759_IC_6.png",
       "hf_path": "BRACS/ROI/train_BRACS_759_IC_6.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_759_IC_6.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -946,7 +946,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_773_IC_101.png",
       "hf_path": "BRACS/ROI/train_BRACS_773_IC_101.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_773_IC_101.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -956,7 +956,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_773_IC_30.png",
       "hf_path": "BRACS/ROI/train_BRACS_773_IC_30.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_773_IC_30.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -966,7 +966,7 @@
       "dataset": "BRACS",
       "filename": "train_BRACS_773_IC_90.png",
       "hf_path": "BRACS/ROI/train_BRACS_773_IC_90.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/train_BRACS_773_IC_90.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -976,7 +976,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1271_ADH_5.png",
       "hf_path": "BRACS/ROI/val_BRACS_1271_ADH_5.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1271_ADH_5.png",
       "metadata": {
         "label": "Atypical Ductal Hyperplasia"
       }
@@ -986,7 +986,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1392_IC_3.png",
       "hf_path": "BRACS/ROI/val_BRACS_1392_IC_3.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1392_IC_3.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -996,7 +996,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1394_IC_2.png",
       "hf_path": "BRACS/ROI/val_BRACS_1394_IC_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1394_IC_2.png",
       "metadata": {
         "label": "Invasive Carcinoma"
       }
@@ -1006,7 +1006,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1584_N_1.png",
       "hf_path": "BRACS/ROI/val_BRACS_1584_N_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1584_N_1.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1016,7 +1016,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1584_N_2.png",
       "hf_path": "BRACS/ROI/val_BRACS_1584_N_2.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1584_N_2.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1026,7 +1026,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_1595_UDH_11.png",
       "hf_path": "BRACS/ROI/val_BRACS_1595_UDH_11.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_1595_UDH_11.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -1036,7 +1036,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_265_UDH_19.png",
       "hf_path": "BRACS/ROI/val_BRACS_265_UDH_19.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_265_UDH_19.png",
       "metadata": {
         "label": "Usual Ductal Hyperplasia"
       }
@@ -1046,7 +1046,7 @@
       "dataset": "BRACS",
       "filename": "val_BRACS_736_DCIS_1.png",
       "hf_path": "BRACS/ROI/val_BRACS_736_DCIS_1.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/BRACS/ROI/val_BRACS_736_DCIS_1.png",
       "metadata": {
         "label": "Ductal Carcinoma In-Situ"
       }
@@ -1056,7 +1056,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_G4_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_G4_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_G4_Mask11_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1066,7 +1066,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_G4_Mask15_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_G4_Mask15_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_G4_Mask15_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1076,7 +1076,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_G4_Mask17_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_G4_Mask17_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_G4_Mask17_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1086,7 +1086,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_G4_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_G4_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_G4_Mask8_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1096,7 +1096,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_Normal_Mask10_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_Normal_Mask10_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_Normal_Mask10_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1106,7 +1106,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_Normal_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_Normal_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_Normal_Mask11_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1116,7 +1116,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_Normal_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_Normal_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_Normal_Mask7_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1126,7 +1126,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_Normal_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_Normal_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_Normal_Mask8_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1136,7 +1136,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_10_Stroma_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_10_Stroma_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_10_Stroma_Mask5_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1146,7 +1146,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_G3_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_G3_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_G3_Mask1_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1156,7 +1156,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_Normal_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_Normal_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_Normal_Mask1_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1166,7 +1166,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_Normal_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_Normal_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_Normal_Mask3_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1176,7 +1176,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_Normal_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_Normal_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_Normal_Mask4_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1186,7 +1186,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_Normal_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_Normal_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_Normal_Mask5_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1196,7 +1196,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_1_Stroma_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_1_Stroma_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_1_Stroma_Mask3_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1206,7 +1206,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G3_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G3_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G3_Mask2_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1216,7 +1216,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G3_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G3_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G3_Mask4_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1226,7 +1226,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G3_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G3_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G3_Mask5_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1236,7 +1236,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G3_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G3_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G3_Mask6_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1246,7 +1246,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G4_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G4_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G4_Mask3_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1256,7 +1256,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G4_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G4_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G4_Mask6_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1266,7 +1266,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G4_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G4_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G4_Mask7_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1276,7 +1276,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G4_Mask9_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G4_Mask9_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G4_Mask9_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1286,7 +1286,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G5_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G5_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G5_Mask1_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1296,7 +1296,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G5_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G5_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G5_Mask2_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1306,7 +1306,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_G5_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_G5_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_G5_Mask3_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1316,7 +1316,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Normal_Mask10_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Normal_Mask10_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Normal_Mask10_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1326,7 +1326,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Normal_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Normal_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Normal_Mask11_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1336,7 +1336,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Normal_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Normal_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Normal_Mask2_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1346,7 +1346,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Normal_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Normal_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Normal_Mask7_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1356,7 +1356,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Stroma_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Stroma_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Stroma_Mask1_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1366,7 +1366,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_22_Stroma_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_22_Stroma_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_22_Stroma_Mask3_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1376,7 +1376,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G3_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G3_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G3_Mask2_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1386,7 +1386,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G3_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G3_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G3_Mask3_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1396,7 +1396,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G4_Mask13_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G4_Mask13_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G4_Mask13_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1406,7 +1406,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G4_Mask15_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G4_Mask15_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G4_Mask15_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1416,7 +1416,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G4_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G4_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G4_Mask1_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1426,7 +1426,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G4_Mask23_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G4_Mask23_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G4_Mask23_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1436,7 +1436,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G5_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G5_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G5_Mask2_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1446,7 +1446,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G5_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G5_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G5_Mask4_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1456,7 +1456,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_G5_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_G5_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_G5_Mask5_ROI.png",
       "metadata": {
         "label": "G5"
       }
@@ -1466,7 +1466,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Normal_Mask10_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Normal_Mask10_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Normal_Mask10_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1476,7 +1476,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Normal_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Normal_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Normal_Mask11_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1486,7 +1486,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Normal_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Normal_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Normal_Mask3_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1496,7 +1496,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Normal_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Normal_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Normal_Mask6_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1506,7 +1506,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Stroma_Mask14_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Stroma_Mask14_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Stroma_Mask14_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1516,7 +1516,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Stroma_Mask15_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Stroma_Mask15_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Stroma_Mask15_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1526,7 +1526,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Stroma_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Stroma_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Stroma_Mask2_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1536,7 +1536,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_23_Stroma_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_23_Stroma_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_23_Stroma_Mask7_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1546,7 +1546,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_28_Normal_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_28_Normal_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_28_Normal_Mask5_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1556,7 +1556,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_28_Normal_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_28_Normal_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_28_Normal_Mask6_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1566,7 +1566,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_28_Stroma_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_28_Stroma_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_28_Stroma_Mask2_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1576,7 +1576,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_G3_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_G3_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_G3_Mask1_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1586,7 +1586,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_G3_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_G3_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_G3_Mask3_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1596,7 +1596,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_G3_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_G3_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_G3_Mask5_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1606,7 +1606,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_G3_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_G3_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_G3_Mask6_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1616,7 +1616,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Normal_Mask10_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Normal_Mask10_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Normal_Mask10_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1626,7 +1626,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Normal_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Normal_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Normal_Mask2_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1636,7 +1636,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Normal_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Normal_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Normal_Mask8_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1646,7 +1646,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Normal_Mask9_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Normal_Mask9_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Normal_Mask9_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1656,7 +1656,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Stroma_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Stroma_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Stroma_Mask1_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1666,7 +1666,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_2_Stroma_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_2_Stroma_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_2_Stroma_Mask2_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1676,7 +1676,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_30_Normal_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_30_Normal_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_30_Normal_Mask2_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1686,7 +1686,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_30_Normal_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_30_Normal_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_30_Normal_Mask5_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1696,7 +1696,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_30_Normal_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_30_Normal_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_30_Normal_Mask6_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1706,7 +1706,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_30_Stroma_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_30_Stroma_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_30_Stroma_Mask1_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1716,7 +1716,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_30_Stroma_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_30_Stroma_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_30_Stroma_Mask3_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1726,7 +1726,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_31_Normal_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_31_Normal_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_31_Normal_Mask1_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1736,7 +1736,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_31_Normal_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_31_Normal_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_31_Normal_Mask2_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1746,7 +1746,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_31_Stroma_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_31_Stroma_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_31_Stroma_Mask3_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1756,7 +1756,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_33_G3_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_33_G3_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_33_G3_Mask2_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1766,7 +1766,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_33_Normal_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_33_Normal_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_33_Normal_Mask3_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1776,7 +1776,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_33_Stroma_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_33_Stroma_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_33_Stroma_Mask5_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1786,7 +1786,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_G3_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_G3_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_G3_Mask3_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1796,7 +1796,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_G3_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_G3_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_G3_Mask4_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1806,7 +1806,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_G3_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_G3_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_G3_Mask6_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1816,7 +1816,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_G3_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_G3_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_G3_Mask7_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1826,7 +1826,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Normal_Mask12_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Normal_Mask12_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Normal_Mask12_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1836,7 +1836,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Normal_Mask13_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Normal_Mask13_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Normal_Mask13_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1846,7 +1846,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Normal_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Normal_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Normal_Mask8_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -1856,7 +1856,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Stroma_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Stroma_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Stroma_Mask5_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1866,7 +1866,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Stroma_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Stroma_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Stroma_Mask7_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1876,7 +1876,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_35_Stroma_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_35_Stroma_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_35_Stroma_Mask8_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -1886,7 +1886,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G3_Mask10_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G3_Mask10_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G3_Mask10_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1896,7 +1896,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G3_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G3_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G3_Mask11_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1906,7 +1906,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G3_Mask17_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G3_Mask17_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G3_Mask17_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1916,7 +1916,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G3_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G3_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G3_Mask8_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1926,7 +1926,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G4_Mask14_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G4_Mask14_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G4_Mask14_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1936,7 +1936,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G4_Mask26_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G4_Mask26_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G4_Mask26_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1946,7 +1946,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G4_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G4_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G4_Mask3_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1956,7 +1956,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_36_G4_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_36_G4_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_36_G4_Mask4_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1966,7 +1966,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_G3_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_G3_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_G3_Mask2_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1976,7 +1976,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_G3_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_G3_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_G3_Mask3_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -1986,7 +1986,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_G4_Mask1_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_G4_Mask1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_G4_Mask1_ROI.png",
       "metadata": {
         "label": "G4"
       }
@@ -1996,7 +1996,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_Normal_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_Normal_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_Normal_Mask4_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2006,7 +2006,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_Normal_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_Normal_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_Normal_Mask6_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2016,7 +2016,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_Normal_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_Normal_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_Normal_Mask7_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2026,7 +2026,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_3_Normal_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_3_Normal_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_3_Normal_Mask8_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2036,7 +2036,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_G3_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_G3_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_G3_Mask2_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -2046,7 +2046,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_G3_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_G3_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_G3_Mask4_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -2056,7 +2056,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_G3_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_G3_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_G3_Mask7_ROI.png",
       "metadata": {
         "label": "G3"
       }
@@ -2066,7 +2066,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Normal_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Normal_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Normal_Mask2_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2076,7 +2076,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Normal_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Normal_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Normal_Mask3_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2086,7 +2086,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Normal_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Normal_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Normal_Mask4_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2096,7 +2096,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Normal_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Normal_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Normal_Mask5_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2106,7 +2106,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Stroma_Mask2_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Stroma_Mask2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Stroma_Mask2_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2116,7 +2116,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Stroma_Mask6_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Stroma_Mask6_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Stroma_Mask6_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2126,7 +2126,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Stroma_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Stroma_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Stroma_Mask8_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2136,7 +2136,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_4_Stroma_Mask9_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_4_Stroma_Mask9_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_4_Stroma_Mask9_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2146,7 +2146,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Normal_Mask11_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Normal_Mask11_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Normal_Mask11_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2156,7 +2156,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Normal_Mask5_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Normal_Mask5_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Normal_Mask5_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2166,7 +2166,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Normal_Mask7_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Normal_Mask7_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Normal_Mask7_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2176,7 +2176,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Normal_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Normal_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Normal_Mask8_ROI.png",
       "metadata": {
         "label": "Normal"
       }
@@ -2186,7 +2186,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Stroma_Mask3_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Stroma_Mask3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Stroma_Mask3_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2196,7 +2196,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Stroma_Mask4_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Stroma_Mask4_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Stroma_Mask4_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2206,7 +2206,7 @@
       "dataset": "AGGC",
       "filename": "Subset2_Train_7_Stroma_Mask8_ROI.png",
       "hf_path": "AGGC/ROI/Subset2_Train_7_Stroma_Mask8_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/AGGC/ROI/Subset2_Train_7_Stroma_Mask8_ROI.png",
       "metadata": {
         "label": "Stroma"
       }
@@ -2216,7 +2216,7 @@
       "dataset": "PANDA",
       "filename": "07c9784228dc2ad0b00d2cecd8ca32ce_karolinska_benign_tissue_1_2_ROI.png",
       "hf_path": "PANDA/ROI/07c9784228dc2ad0b00d2cecd8ca32ce_karolinska_benign_tissue_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/07c9784228dc2ad0b00d2cecd8ca32ce_karolinska_benign_tissue_1_2_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2226,7 +2226,7 @@
       "dataset": "PANDA",
       "filename": "0a4b7a7499ed55c71033cefb0765e93d_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/0a4b7a7499ed55c71033cefb0765e93d_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0a4b7a7499ed55c71033cefb0765e93d_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "stroma"
       }
@@ -2236,7 +2236,7 @@
       "dataset": "PANDA",
       "filename": "0aa6472328e4807ba54a807b8332da0f_radboud_gleason3_10_1_ROI.png",
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_gleason3_10_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_gleason3_10_1_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2246,7 +2246,7 @@
       "dataset": "PANDA",
       "filename": "0aa6472328e4807ba54a807b8332da0f_radboud_healthy_epithelium_4_1_ROI.png",
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_healthy_epithelium_4_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_healthy_epithelium_4_1_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2256,7 +2256,7 @@
       "dataset": "PANDA",
       "filename": "0aa6472328e4807ba54a807b8332da0f_radboud_stroma_2_1_ROI.png",
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_stroma_2_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_stroma_2_1_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2266,7 +2266,7 @@
       "dataset": "PANDA",
       "filename": "1d645028ae7e6bb2c83f3b6207d074ad_karolinska_benign_tissue_2_2_ROI.png",
       "hf_path": "PANDA/ROI/1d645028ae7e6bb2c83f3b6207d074ad_karolinska_benign_tissue_2_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/1d645028ae7e6bb2c83f3b6207d074ad_karolinska_benign_tissue_2_2_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2276,7 +2276,7 @@
       "dataset": "PANDA",
       "filename": "1f714e09f15848bb3292e917f711333a_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/1f714e09f15848bb3292e917f711333a_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/1f714e09f15848bb3292e917f711333a_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2286,7 +2286,7 @@
       "dataset": "PANDA",
       "filename": "23a5352a05eb718d38fc0e2e8e22e9b5_radboud_healthy_epithelium_2_1_ROI.png",
       "hf_path": "PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_healthy_epithelium_2_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_healthy_epithelium_2_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2296,7 +2296,7 @@
       "dataset": "PANDA",
       "filename": "23a5352a05eb718d38fc0e2e8e22e9b5_radboud_stroma_1_3_ROI.png",
       "hf_path": "PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_stroma_1_3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_stroma_1_3_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2306,7 +2306,7 @@
       "dataset": "PANDA",
       "filename": "26f2d29004f336693739d11c4047816f_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/26f2d29004f336693739d11c4047816f_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/26f2d29004f336693739d11c4047816f_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2316,7 +2316,7 @@
       "dataset": "PANDA",
       "filename": "3b343b8c4e2a854735a82bcebe482a14_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/3b343b8c4e2a854735a82bcebe482a14_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/3b343b8c4e2a854735a82bcebe482a14_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2326,7 +2326,7 @@
       "dataset": "PANDA",
       "filename": "401125cfff3d551db4dbd096e9eb1f08_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/401125cfff3d551db4dbd096e9eb1f08_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/401125cfff3d551db4dbd096e9eb1f08_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2336,7 +2336,7 @@
       "dataset": "PANDA",
       "filename": "46f1c6a77e6de339e042fbb6334ae713_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/46f1c6a77e6de339e042fbb6334ae713_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/46f1c6a77e6de339e042fbb6334ae713_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "stroma"
       }
@@ -2346,7 +2346,7 @@
       "dataset": "PANDA",
       "filename": "490bf9ff9c5e70a4562bc6b1ba33ad63_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/490bf9ff9c5e70a4562bc6b1ba33ad63_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/490bf9ff9c5e70a4562bc6b1ba33ad63_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2356,7 +2356,7 @@
       "dataset": "PANDA",
       "filename": "4e1702de80175bad5ba65290d3898d43_karolinska_benign_tissue_2_1_ROI.png",
       "hf_path": "PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_benign_tissue_2_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_benign_tissue_2_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2366,7 +2366,7 @@
       "dataset": "PANDA",
       "filename": "4e1702de80175bad5ba65290d3898d43_karolinska_cancerous_tissue_1_2_ROI.png",
       "hf_path": "PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_cancerous_tissue_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_cancerous_tissue_1_2_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2376,7 +2376,7 @@
       "dataset": "PANDA",
       "filename": "54ceb058fa9693e181b997ccb6d51e2e_karolinska_benign_tissue_1_2_ROI.png",
       "hf_path": "PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_benign_tissue_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_benign_tissue_1_2_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2386,7 +2386,7 @@
       "dataset": "PANDA",
       "filename": "54ceb058fa9693e181b997ccb6d51e2e_karolinska_cancerous_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_cancerous_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2396,7 +2396,7 @@
       "dataset": "PANDA",
       "filename": "5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2406,7 +2406,7 @@
       "dataset": "PANDA",
       "filename": "5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_cancerous_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_cancerous_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2416,7 +2416,7 @@
       "dataset": "PANDA",
       "filename": "64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_healthy_epithelium_13_1_ROI.png",
       "hf_path": "PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_healthy_epithelium_13_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_healthy_epithelium_13_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2426,7 +2426,7 @@
       "dataset": "PANDA",
       "filename": "64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2436,7 +2436,7 @@
       "dataset": "PANDA",
       "filename": "6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2446,7 +2446,7 @@
       "dataset": "PANDA",
       "filename": "6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_cancerous_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_cancerous_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2456,7 +2456,7 @@
       "dataset": "PANDA",
       "filename": "6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2466,7 +2466,7 @@
       "dataset": "PANDA",
       "filename": "6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_cancerous_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_cancerous_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2476,7 +2476,7 @@
       "dataset": "PANDA",
       "filename": "76541217a60105571466b759358ab8df_radboud_healthy_epithelium_51_1_ROI.png",
       "hf_path": "PANDA/ROI/76541217a60105571466b759358ab8df_radboud_healthy_epithelium_51_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/76541217a60105571466b759358ab8df_radboud_healthy_epithelium_51_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2486,7 +2486,7 @@
       "dataset": "PANDA",
       "filename": "76541217a60105571466b759358ab8df_radboud_stroma_1_3_ROI.png",
       "hf_path": "PANDA/ROI/76541217a60105571466b759358ab8df_radboud_stroma_1_3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/76541217a60105571466b759358ab8df_radboud_stroma_1_3_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2496,7 +2496,7 @@
       "dataset": "PANDA",
       "filename": "799e5493454e8e8e4f75d383846625b0_radboud_gleason3_1_2_ROI.png",
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_gleason3_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_gleason3_1_2_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2506,7 +2506,7 @@
       "dataset": "PANDA",
       "filename": "799e5493454e8e8e4f75d383846625b0_radboud_healthy_epithelium_11_1_ROI.png",
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_healthy_epithelium_11_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_healthy_epithelium_11_1_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2516,7 +2516,7 @@
       "dataset": "PANDA",
       "filename": "799e5493454e8e8e4f75d383846625b0_radboud_stroma_12_1_ROI.png",
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_stroma_12_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_stroma_12_1_ROI.png",
       "metadata": {
         "label": "gleason3, healthy_epithelium, stroma"
       }
@@ -2526,7 +2526,7 @@
       "dataset": "PANDA",
       "filename": "7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2536,7 +2536,7 @@
       "dataset": "PANDA",
       "filename": "7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_cancerous_tissue_1_2_ROI.png",
       "hf_path": "PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_cancerous_tissue_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_cancerous_tissue_1_2_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2546,7 +2546,7 @@
       "dataset": "PANDA",
       "filename": "7bed5662489bd913da7e9792f715c1ed_radboud_healthy_epithelium_22_1_ROI.png",
       "hf_path": "PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_healthy_epithelium_22_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_healthy_epithelium_22_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2556,7 +2556,7 @@
       "dataset": "PANDA",
       "filename": "7bed5662489bd913da7e9792f715c1ed_radboud_stroma_1_3_ROI.png",
       "hf_path": "PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_stroma_1_3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_stroma_1_3_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2566,7 +2566,7 @@
       "dataset": "PANDA",
       "filename": "8001484017154333b90372d0055508b8_radboud_healthy_epithelium_26_1_ROI.png",
       "hf_path": "PANDA/ROI/8001484017154333b90372d0055508b8_radboud_healthy_epithelium_26_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/8001484017154333b90372d0055508b8_radboud_healthy_epithelium_26_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2576,7 +2576,7 @@
       "dataset": "PANDA",
       "filename": "8001484017154333b90372d0055508b8_radboud_stroma_11_1_ROI.png",
       "hf_path": "PANDA/ROI/8001484017154333b90372d0055508b8_radboud_stroma_11_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/8001484017154333b90372d0055508b8_radboud_stroma_11_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2586,7 +2586,7 @@
       "dataset": "PANDA",
       "filename": "a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason4_66_1_ROI.png",
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason4_66_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason4_66_1_ROI.png",
       "metadata": {
         "label": "gleason4, gleason5, stroma"
       }
@@ -2596,7 +2596,7 @@
       "dataset": "PANDA",
       "filename": "a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason5_11_1_ROI.png",
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason5_11_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason5_11_1_ROI.png",
       "metadata": {
         "label": "gleason4, gleason5, stroma"
       }
@@ -2606,7 +2606,7 @@
       "dataset": "PANDA",
       "filename": "a4effa6d0c2e32e36e45f32f9e7e4977_radboud_stroma_35_1_ROI.png",
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_stroma_35_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_stroma_35_1_ROI.png",
       "metadata": {
         "label": "gleason4, gleason5, stroma"
       }
@@ -2616,7 +2616,7 @@
       "dataset": "PANDA",
       "filename": "a82236cce5d5e4b0cc7eb4f2975d5cb3_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/a82236cce5d5e4b0cc7eb4f2975d5cb3_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a82236cce5d5e4b0cc7eb4f2975d5cb3_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2626,7 +2626,7 @@
       "dataset": "PANDA",
       "filename": "af19419c91142ecb32673de460b8d556_karolinska_benign_tissue_1_2_ROI.png",
       "hf_path": "PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_benign_tissue_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_benign_tissue_1_2_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2636,7 +2636,7 @@
       "dataset": "PANDA",
       "filename": "af19419c91142ecb32673de460b8d556_karolinska_cancerous_tissue_1_3_ROI.png",
       "hf_path": "PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_cancerous_tissue_1_3_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_cancerous_tissue_1_3_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2646,7 +2646,7 @@
       "dataset": "PANDA",
       "filename": "b14a7f66d2c7fccac708bd5540448658_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/b14a7f66d2c7fccac708bd5540448658_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/b14a7f66d2c7fccac708bd5540448658_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2656,7 +2656,7 @@
       "dataset": "PANDA",
       "filename": "bdee61aba162525b19958100117243f3_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2666,7 +2666,7 @@
       "dataset": "PANDA",
       "filename": "bdee61aba162525b19958100117243f3_karolinska_cancerous_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_cancerous_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue, cancerous_tissue"
       }
@@ -2676,7 +2676,7 @@
       "dataset": "PANDA",
       "filename": "c5f69f20e4c9bd6dae83222afba587e8_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/c5f69f20e4c9bd6dae83222afba587e8_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c5f69f20e4c9bd6dae83222afba587e8_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2686,7 +2686,7 @@
       "dataset": "PANDA",
       "filename": "c747ff83cac833b059fb7562d5f77a5f_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/c747ff83cac833b059fb7562d5f77a5f_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c747ff83cac833b059fb7562d5f77a5f_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2696,7 +2696,7 @@
       "dataset": "PANDA",
       "filename": "c79d24ced43aac04ce0531e229f62f03_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/c79d24ced43aac04ce0531e229f62f03_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c79d24ced43aac04ce0531e229f62f03_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2706,7 +2706,7 @@
       "dataset": "PANDA",
       "filename": "c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_gleason3_68_1_ROI.png",
       "hf_path": "PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_gleason3_68_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_gleason3_68_1_ROI.png",
       "metadata": {
         "label": "gleason3, stroma"
       }
@@ -2716,7 +2716,7 @@
       "dataset": "PANDA",
       "filename": "c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_stroma_6_1_ROI.png",
       "hf_path": "PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_stroma_6_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_stroma_6_1_ROI.png",
       "metadata": {
         "label": "gleason3, stroma"
       }
@@ -2726,7 +2726,7 @@
       "dataset": "PANDA",
       "filename": "da781e50e8bab82212e5724e387f49f4_radboud_stroma_1_2_ROI.png",
       "hf_path": "PANDA/ROI/da781e50e8bab82212e5724e387f49f4_radboud_stroma_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/da781e50e8bab82212e5724e387f49f4_radboud_stroma_1_2_ROI.png",
       "metadata": {
         "label": "stroma"
       }
@@ -2736,7 +2736,7 @@
       "dataset": "PANDA",
       "filename": "dc7825252bd5c07e9a31c0651c989c77_radboud_healthy_epithelium_1_1_ROI.png",
       "hf_path": "PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_healthy_epithelium_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_healthy_epithelium_1_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2746,7 +2746,7 @@
       "dataset": "PANDA",
       "filename": "dc7825252bd5c07e9a31c0651c989c77_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2756,7 +2756,7 @@
       "dataset": "PANDA",
       "filename": "dfefdf0717c69330a75f3cd28abcfff5_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/dfefdf0717c69330a75f3cd28abcfff5_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/dfefdf0717c69330a75f3cd28abcfff5_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "stroma"
       }
@@ -2766,7 +2766,7 @@
       "dataset": "PANDA",
       "filename": "ef9853b01c42ddaeaad2b6261652f13e_radboud_healthy_epithelium_1_1_ROI.png",
       "hf_path": "PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_healthy_epithelium_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_healthy_epithelium_1_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2776,7 +2776,7 @@
       "dataset": "PANDA",
       "filename": "ef9853b01c42ddaeaad2b6261652f13e_radboud_stroma_8_1_ROI.png",
       "hf_path": "PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_stroma_8_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_stroma_8_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2786,7 +2786,7 @@
       "dataset": "PANDA",
       "filename": "f35466ac37a4bd2190e6aaf668f0dfbf_karolinska_benign_tissue_1_1_ROI.png",
       "hf_path": "PANDA/ROI/f35466ac37a4bd2190e6aaf668f0dfbf_karolinska_benign_tissue_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f35466ac37a4bd2190e6aaf668f0dfbf_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
         "label": "benign_tissue"
       }
@@ -2796,7 +2796,7 @@
       "dataset": "PANDA",
       "filename": "f5096797acc9f645ea8674d77ca2418b_radboud_stroma_1_1_ROI.png",
       "hf_path": "PANDA/ROI/f5096797acc9f645ea8674d77ca2418b_radboud_stroma_1_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f5096797acc9f645ea8674d77ca2418b_radboud_stroma_1_1_ROI.png",
       "metadata": {
         "label": "stroma"
       }
@@ -2806,7 +2806,7 @@
       "dataset": "PANDA",
       "filename": "f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_healthy_epithelium_30_1_ROI.png",
       "hf_path": "PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_healthy_epithelium_30_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_healthy_epithelium_30_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2816,7 +2816,7 @@
       "dataset": "PANDA",
       "filename": "f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_stroma_28_1_ROI.png",
       "hf_path": "PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_stroma_28_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_stroma_28_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2826,7 +2826,7 @@
       "dataset": "PANDA",
       "filename": "fc6a695ba44f4b64425c522f590bac48_radboud_healthy_epithelium_5_1_ROI.png",
       "hf_path": "PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_healthy_epithelium_5_1_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_healthy_epithelium_5_1_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }
@@ -2836,7 +2836,7 @@
       "dataset": "PANDA",
       "filename": "fc6a695ba44f4b64425c522f590bac48_radboud_stroma_1_2_ROI.png",
       "hf_path": "PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_stroma_1_2_ROI.png",
-      "url": "",
+      "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_stroma_1_2_ROI.png",
       "metadata": {
         "label": "healthy_epithelium, stroma"
       }

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+auth_config.json
+annotations/
+pathologist_qa_annotations.json

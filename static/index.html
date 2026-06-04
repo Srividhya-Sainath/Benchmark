@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pathology Q&A</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section id="loginScreen" class="login-screen" aria-label="Login">
+      <div class="login-panel">
+        <div class="brand login-brand">
+          <div class="brand-mark">QA</div>
+          <div>
+            <h1>Pathology Q&A</h1>
+            <p>Enter your name to continue your work</p>
+          </div>
+        </div>
+        <label class="field">
+          <span>Name</span>
+          <input id="userNameInput" autocomplete="name" placeholder="Your name" />
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input id="passwordInput" autocomplete="current-password" type="password" placeholder="Password" />
+        </label>
+        <p id="loginError" class="login-error"></p>
+        <button id="loginButton" class="primary-button login-button" type="button">Continue</button>
+      </div>
+    </section>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Image navigation">
+        <div class="brand">
+          <div class="brand-mark">QA</div>
+          <div>
+            <h1>Pathology Q&A</h1>
+            <p id="saveStatus">Loading</p>
+          </div>
+        </div>
+
+        <div class="user-chip">
+          <div>
+            <span>Signed in</span>
+            <strong id="activeUser">Not selected</strong>
+          </div>
+          <button id="logoutButton" class="icon-button" title="Switch user" aria-label="Switch user">↪</button>
+        </div>
+
+        <div class="filters">
+          <label class="field">
+            <span>Dataset</span>
+            <select id="datasetFilter">
+              <option value="all">All datasets</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Search</span>
+            <input id="searchInput" placeholder="Filename or label" />
+          </label>
+        </div>
+
+        <div class="progress-block">
+          <div class="progress-copy">
+            <span id="progressText">0 of 0 annotated</span>
+            <span id="qaCount">0 Q&A</span>
+          </div>
+          <div class="progress-track">
+            <div id="progressFill"></div>
+          </div>
+        </div>
+
+        <div id="imageList" class="image-list"></div>
+      </aside>
+
+      <main class="workspace">
+        <section class="viewer-panel" aria-label="Selected pathology image">
+          <div class="viewer-toolbar">
+            <div class="image-title">
+              <strong id="imageTitle">No image selected</strong>
+              <span id="imageSubtitle"></span>
+            </div>
+            <div class="tool-group">
+              <button id="prevButton" class="icon-button" title="Previous image" aria-label="Previous image">‹</button>
+              <button id="nextButton" class="icon-button" title="Next image" aria-label="Next image">›</button>
+              <div class="zoom-control" aria-label="Zoom controls">
+                <button id="zoomOutButton" class="icon-button" title="Zoom out" aria-label="Zoom out">−</button>
+                <input id="zoomSlider" type="range" min="50" max="300" step="10" value="100" aria-label="Zoom level" />
+                <output id="zoomValue" for="zoomSlider">100%</output>
+                <button id="zoomInButton" class="icon-button" title="Zoom in" aria-label="Zoom in">+</button>
+              </div>
+              <button id="rotateButton" class="icon-button" title="Rotate" aria-label="Rotate">↻</button>
+              <button id="fitButton" class="text-button compact-button" title="Fit image" aria-label="Fit image">Fit</button>
+            </div>
+          </div>
+          <div class="image-stage" id="imageStage">
+            <div class="image-canvas" id="imageCanvas">
+              <img id="roiImage" alt="Selected ROI" />
+            </div>
+          </div>
+          <div id="metadataStrip" class="metadata-strip"></div>
+        </section>
+
+        <section class="annotation-panel" aria-label="Question and answer editor">
+          <div class="panel-head">
+            <div>
+              <h2>Questions & Answers</h2>
+              <p id="annotationSummary">0 pairs on this image</p>
+            </div>
+            <div class="panel-actions">
+              <a id="exportLink" class="text-button" href="#">Export CSV</a>
+              <button id="addQaButton" class="primary-button">+ Add pair</button>
+            </div>
+          </div>
+
+          <div id="qaList" class="qa-list"></div>
+
+          <label class="field notes-field">
+            <span>Image notes</span>
+            <textarea id="notesInput" rows="3" placeholder="Optional notes"></textarea>
+          </label>
+        </section>
+      </main>
+    </div>
+
+    <script src="./config.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
   "version": 1,
   "images": [
     {
-      "id": "BRACS/test_BRACS_1003691_ADH_1.png",
+      "id": "test_BRACS_1003691_ADH_1.png",
       "dataset": "BRACS",
       "filename": "test_BRACS_1003691_ADH_1.png",
       "hf_path": "BRACS/ROI/test_BRACS_1003691_ADH_1.png",

@@ -107,7 +107,7 @@ function currentItem() {
 
 function compactLabel(image) {
   const metadata = image.metadata || {};
-  return metadata.class_label || metadata.label || metadata.annotation || image.dataset;
+  return metadata.label || image.dataset;
 }
 
 function hasAnnotation(imageId) {
@@ -683,10 +683,16 @@ function encodePath(path) {
 }
 
 function imageUrlFromManifest(image) {
-  if (image.url) return image.url;
   const relPath = image.hf_path || image.path || `${image.dataset}/${image.filename}`;
-  if (!config.hfImageBaseUrl) return relPath;
-  return `${config.hfImageBaseUrl.replace(/\/+$/, "")}/${encodePath(relPath)}`;
+  if (config.hfImageBaseUrl) {
+    return `${normalizeImageUrl(config.hfImageBaseUrl).replace(/\/+$/, "")}/${encodePath(relPath)}`;
+  }
+  if (image.url) return normalizeImageUrl(image.url);
+  return relPath;
+}
+
+function normalizeImageUrl(url) {
+  return String(url).replace("/tree/", "/resolve/").replace("/blob/", "/resolve/");
 }
 
 async function loadStaticImages() {
@@ -724,7 +730,7 @@ async function loadImages() {
 
 function configureBackendUi() {
   if (isStaticMode()) {
-    els.passwordInput.placeholder = config.staticPassword ? "Password" : "Optional";
+    els.passwordInput.placeholder = "Password";
     els.loginButton.disabled = !cleanTypedName(els.userNameInput.value) || Boolean(config.staticPassword && !els.passwordInput.value);
     updateStatus("Static mode");
   } else {

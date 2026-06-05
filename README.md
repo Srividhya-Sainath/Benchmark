@@ -32,12 +32,13 @@ window.PATHOLOGY_QA_CONFIG = {
   mode: "static",
   manifestUrl: "./data/images.json",
   hfImageBaseUrl: "https://huggingface.co/datasets/USER/REPO/resolve/main",
-  staticPassword: "",
+  staticPassword: "pathqa2026",
   annotationStoragePrefix: "pathologyQaAnnotations",
 };
 ```
 
 Replace `USER/REPO` with your Hugging Face dataset repo.
+Set `staticPassword` to the shared review password required by the GitHub Pages UI.
 
 If the images live inside a subfolder in the HF dataset repo, rebuild the manifest with `--hf-prefix`:
 

@@ -2238,7 +2238,7 @@
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_gleason3_10_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_gleason3_10_1_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "gleason3"
       }
     },
     {
@@ -2248,7 +2248,7 @@
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_healthy_epithelium_4_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_healthy_epithelium_4_1_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2258,7 +2258,7 @@
       "hf_path": "PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_stroma_2_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/0aa6472328e4807ba54a807b8332da0f_radboud_stroma_2_1_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2288,7 +2288,7 @@
       "hf_path": "PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_healthy_epithelium_2_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_healthy_epithelium_2_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2298,7 +2298,7 @@
       "hf_path": "PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_stroma_1_3_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/23a5352a05eb718d38fc0e2e8e22e9b5_radboud_stroma_1_3_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2358,7 +2358,7 @@
       "hf_path": "PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_benign_tissue_2_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_benign_tissue_2_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2368,7 +2368,7 @@
       "hf_path": "PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_cancerous_tissue_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/4e1702de80175bad5ba65290d3898d43_karolinska_cancerous_tissue_1_2_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2378,7 +2378,7 @@
       "hf_path": "PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_benign_tissue_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_benign_tissue_1_2_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2388,7 +2388,7 @@
       "hf_path": "PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_cancerous_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/54ceb058fa9693e181b997ccb6d51e2e_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2398,7 +2398,7 @@
       "hf_path": "PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_benign_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2408,7 +2408,7 @@
       "hf_path": "PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_cancerous_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/5a145fb4724f271a9fed0c8de7a7bf9d_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2418,7 +2418,7 @@
       "hf_path": "PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_healthy_epithelium_13_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_healthy_epithelium_13_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2428,7 +2428,7 @@
       "hf_path": "PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_stroma_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/64fb4585a1a2f2ec2cdfe6e0e831dddf_radboud_stroma_1_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2438,7 +2438,7 @@
       "hf_path": "PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_benign_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2448,7 +2448,7 @@
       "hf_path": "PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_cancerous_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c2b1416fd7b6b544c7c60f9b8d2548c_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2458,7 +2458,7 @@
       "hf_path": "PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_benign_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2468,7 +2468,7 @@
       "hf_path": "PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_cancerous_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/6c35e7a35598c33026f7d5eb0edbaaf6_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2478,7 +2478,7 @@
       "hf_path": "PANDA/ROI/76541217a60105571466b759358ab8df_radboud_healthy_epithelium_51_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/76541217a60105571466b759358ab8df_radboud_healthy_epithelium_51_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2488,7 +2488,7 @@
       "hf_path": "PANDA/ROI/76541217a60105571466b759358ab8df_radboud_stroma_1_3_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/76541217a60105571466b759358ab8df_radboud_stroma_1_3_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2498,7 +2498,7 @@
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_gleason3_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_gleason3_1_2_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "gleason3"
       }
     },
     {
@@ -2508,7 +2508,7 @@
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_healthy_epithelium_11_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_healthy_epithelium_11_1_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2518,7 +2518,7 @@
       "hf_path": "PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_stroma_12_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/799e5493454e8e8e4f75d383846625b0_radboud_stroma_12_1_ROI.png",
       "metadata": {
-        "label": "gleason3, healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2528,7 +2528,7 @@
       "hf_path": "PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_benign_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2538,7 +2538,7 @@
       "hf_path": "PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_cancerous_tissue_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7ae3ce7d22d6f62fdd339ea657ea3c70_karolinska_cancerous_tissue_1_2_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2548,7 +2548,7 @@
       "hf_path": "PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_healthy_epithelium_22_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_healthy_epithelium_22_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2558,7 +2558,7 @@
       "hf_path": "PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_stroma_1_3_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/7bed5662489bd913da7e9792f715c1ed_radboud_stroma_1_3_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2568,7 +2568,7 @@
       "hf_path": "PANDA/ROI/8001484017154333b90372d0055508b8_radboud_healthy_epithelium_26_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/8001484017154333b90372d0055508b8_radboud_healthy_epithelium_26_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2578,7 +2578,7 @@
       "hf_path": "PANDA/ROI/8001484017154333b90372d0055508b8_radboud_stroma_11_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/8001484017154333b90372d0055508b8_radboud_stroma_11_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2588,7 +2588,7 @@
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason4_66_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason4_66_1_ROI.png",
       "metadata": {
-        "label": "gleason4, gleason5, stroma"
+        "label": "gleason4"
       }
     },
     {
@@ -2598,7 +2598,7 @@
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason5_11_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_gleason5_11_1_ROI.png",
       "metadata": {
-        "label": "gleason4, gleason5, stroma"
+        "label": "gleason5"
       }
     },
     {
@@ -2608,7 +2608,7 @@
       "hf_path": "PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_stroma_35_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/a4effa6d0c2e32e36e45f32f9e7e4977_radboud_stroma_35_1_ROI.png",
       "metadata": {
-        "label": "gleason4, gleason5, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2628,7 +2628,7 @@
       "hf_path": "PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_benign_tissue_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_benign_tissue_1_2_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2638,7 +2638,7 @@
       "hf_path": "PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_cancerous_tissue_1_3_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/af19419c91142ecb32673de460b8d556_karolinska_cancerous_tissue_1_3_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2658,7 +2658,7 @@
       "hf_path": "PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_benign_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_benign_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "benign_tissue"
       }
     },
     {
@@ -2668,7 +2668,7 @@
       "hf_path": "PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_cancerous_tissue_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/bdee61aba162525b19958100117243f3_karolinska_cancerous_tissue_1_1_ROI.png",
       "metadata": {
-        "label": "benign_tissue, cancerous_tissue"
+        "label": "cancerous_tissue"
       }
     },
     {
@@ -2708,7 +2708,7 @@
       "hf_path": "PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_gleason3_68_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_gleason3_68_1_ROI.png",
       "metadata": {
-        "label": "gleason3, stroma"
+        "label": "gleason3"
       }
     },
     {
@@ -2718,7 +2718,7 @@
       "hf_path": "PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_stroma_6_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/c7f98a0c815cd3e5e2e84aa10fa08a2c_radboud_stroma_6_1_ROI.png",
       "metadata": {
-        "label": "gleason3, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2738,7 +2738,7 @@
       "hf_path": "PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_healthy_epithelium_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_healthy_epithelium_1_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2748,7 +2748,7 @@
       "hf_path": "PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_stroma_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/dc7825252bd5c07e9a31c0651c989c77_radboud_stroma_1_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2768,7 +2768,7 @@
       "hf_path": "PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_healthy_epithelium_1_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_healthy_epithelium_1_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2778,7 +2778,7 @@
       "hf_path": "PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_stroma_8_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/ef9853b01c42ddaeaad2b6261652f13e_radboud_stroma_8_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2808,7 +2808,7 @@
       "hf_path": "PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_healthy_epithelium_30_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_healthy_epithelium_30_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2818,7 +2818,7 @@
       "hf_path": "PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_stroma_28_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/f6ffc86aa0c22f0f0e6bb3b5c3dd79e9_radboud_stroma_28_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     },
     {
@@ -2828,7 +2828,7 @@
       "hf_path": "PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_healthy_epithelium_5_1_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_healthy_epithelium_5_1_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "healthy_epithelium"
       }
     },
     {
@@ -2838,7 +2838,7 @@
       "hf_path": "PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_stroma_1_2_ROI.png",
       "url": "https://huggingface.co/datasets/Srividhya-Sainath/benchmark/resolve/main/PANDA/ROI/fc6a695ba44f4b64425c522f590bac48_radboud_stroma_1_2_ROI.png",
       "metadata": {
-        "label": "healthy_epithelium, stroma"
+        "label": "stroma"
       }
     }
   ]

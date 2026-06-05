@@ -140,13 +140,14 @@ def load_metadata(dataset: str, root: Path) -> dict[str, dict[str, str]]:
                 image_id = row.get("image_id", "").strip()
                 if not image_id:
                     continue
-                entry = by_name.setdefault(image_id, {"image_id": image_id})
-                label = (row.get("label") or row.get("annotation") or "").strip()
+                entry = by_name.setdefault(image_id, {"image_id": image_id, "_labels": ""})
+                label = (row.get("label") or "").strip()
                 if label:
-                    existing = entry.get("label", "")
-                    values = {v for v in existing.split(", ") if v}
-                    values.add(label)
-                    entry["label"] = ", ".join(sorted(values))
+                    labels = [value for value in entry.get("_labels", "").split("\n") if value]
+                    if label not in labels:
+                        labels.append(label)
+                    entry["_labels"] = "\n".join(labels)
+                    entry.setdefault("label", label)
                 continue
 
             file_name = row.get("file_name", "").strip()
@@ -156,6 +157,20 @@ def load_metadata(dataset: str, root: Path) -> dict[str, dict[str, str]]:
             for prefix in ("train_", "test_", "val_"):
                 by_name[prefix + file_name] = by_name[file_name]
     return by_name
+
+
+def label_for_image(dataset: str, metadata: dict[str, str], filename: str) -> str:
+    labels = [value for value in metadata.get("_labels", "").split("\n") if value]
+    if not labels and metadata.get("label"):
+        labels = [metadata["label"]]
+
+    if dataset == "PANDA" and labels:
+        lower_name = f"_{filename.lower()}_"
+        for label in labels:
+            if f"_{label.lower()}_" in lower_name:
+                return label
+
+    return labels[0] if len(labels) == 1 else ", ".join(labels)
 
 
 def build_manifest() -> list[dict]:
@@ -176,12 +191,7 @@ def build_manifest() -> list[dict]:
                 image_id = name.split("_", 1)[0]
                 item_metadata = metadata.get(image_id, item_metadata)
 
-            label = (
-                item_metadata.get("label")
-                or item_metadata.get("class_label")
-                or item_metadata.get("annotation")
-                or dataset
-            )
+            label = label_for_image(dataset, item_metadata, name) or dataset
             image_id = f"{dataset}/{name}"
             images.append(
                 {
@@ -384,7 +394,7 @@ class Handler(BaseHTTPRequestHandler):
         with path.open("rb") as f:
             try:
                 shutil.copyfileobj(f, self.wfile)
-            except BrokenPipeError:
+            except (BrokenPipeError, ConnectionResetError):
                 pass
 
     def send_json(self, data: dict) -> None:

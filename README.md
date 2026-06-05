@@ -31,13 +31,13 @@ Edit `static/config.js`:
 window.PATHOLOGY_QA_CONFIG = {
   mode: "static",
   manifestUrl: "./data/images.json",
-  hfImageBaseUrl: "https://huggingface.co/datasets/USER/REPO/resolve/main",
+  hfImageBaseUrl: "https://huggingface.co/datasets/oyemainhun/benchmark/resolve/main",
   staticPassword: "pathqa2026",
   annotationStoragePrefix: "pathologyQaAnnotations",
 };
 ```
 
-Replace `USER/REPO` with your Hugging Face dataset repo.
+Replace `oyemainhun/benchmark` only if the new Hugging Face dataset repo is public.
 Set `staticPassword` to the shared review password required by the GitHub Pages UI.
 
 If the images live inside a subfolder in the HF dataset repo, rebuild the manifest with `--hf-prefix`:

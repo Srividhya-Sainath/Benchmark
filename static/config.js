@@ -1,5 +1,6 @@
 window.PATHOLOGY_QA_CONFIG = {
-  mode: "auto",
+  // Force static mode on GitHub Pages (no API backend available there)
+  mode: "static",
   manifestUrl: "./data/images.json",
   hfImageBaseUrl: "https://huggingface.co/datasets/oyemainhun/benchmark/resolve/main",
   staticPassword: "pathqa2026",

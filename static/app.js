@@ -190,11 +190,11 @@ function updateImageBaseSize() {
   applyImageTransform();
 }
 
-function setCurrentImage(imageId) {
+function setCurrentImage(imageId, options = {}) {
   state.currentId = imageId;
   state.zoom = 1;
   state.rotation = 0;
-  renderAll();
+  renderAll(options);
 }
 
 async function login() {
@@ -488,7 +488,8 @@ function filteredImages() {
   });
 }
 
-function renderImageList() {
+function renderImageList(options = {}) {
+  const scrollTop = els.imageList.scrollTop;
   state.filteredImages = filteredImages();
   els.imageList.innerHTML = "";
 
@@ -503,9 +504,13 @@ function renderImageList() {
       </span>
       <span class="dataset-pill">${escapeHtml(image.dataset)}</span>
     `;
-    button.addEventListener("click", () => setCurrentImage(image.id));
+    button.addEventListener("click", () => setCurrentImage(image.id, { preserveListScroll: true }));
     els.imageList.appendChild(button);
   });
+
+  if (options.preserveScroll) {
+    els.imageList.scrollTop = scrollTop;
+  }
 }
 
 function renderDatasetOptions() {
@@ -519,9 +524,12 @@ function renderDatasetOptions() {
 }
 
 function renderProgress() {
-  const annotated = state.images.filter((image) => hasAnnotation(image.id)).length;
-  const total = state.images.length;
-  const qaTotal = Object.values(state.annotations.items || {}).reduce((count, item) => {
+  const images = filteredImages();
+  const visibleIds = new Set(images.map((image) => image.id));
+  const annotated = images.filter((image) => hasAnnotation(image.id)).length;
+  const total = images.length;
+  const qaTotal = Object.entries(state.annotations.items || {}).reduce((count, [imageId, item]) => {
+    if (!visibleIds.has(imageId)) return count;
     return count + (item.qa || []).filter((qa) => isQaSaved(qa)).length;
   }, 0);
   els.progressText.textContent = `${annotated} of ${total} annotated`;
@@ -612,8 +620,8 @@ function renderQa() {
   renderAnnotationSummary();
 }
 
-function renderAll() {
-  renderImageList();
+function renderAll(options = {}) {
+  renderImageList({ preserveScroll: options.preserveListScroll });
   renderProgress();
   renderSelectedImage();
   renderQa();
@@ -754,12 +762,14 @@ function bindEvents() {
   els.exportLink.addEventListener("click", exportAnnotationsCsv);
   els.datasetFilter.addEventListener("change", () => {
     renderImageList();
+    renderProgress();
     if (!state.filteredImages.some((image) => image.id === state.currentId) && state.filteredImages[0]) {
       setCurrentImage(state.filteredImages[0].id);
     }
   });
   els.searchInput.addEventListener("input", () => {
     renderImageList();
+    renderProgress();
   });
   els.addQaButton.addEventListener("click", addQaPair);
   els.notesInput.addEventListener("input", (event) => updateNotes(event.target.value));

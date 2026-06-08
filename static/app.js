@@ -32,6 +32,7 @@ const els = {
   logoutButton: document.getElementById("logoutButton"),
   activeUser: document.getElementById("activeUser"),
   datasetFilter: document.getElementById("datasetFilter"),
+  completionFilter: document.getElementById("completionFilter"),
   searchInput: document.getElementById("searchInput"),
   imageList: document.getElementById("imageList"),
   progressText: document.getElementById("progressText"),
@@ -49,6 +50,7 @@ const els = {
   notesInput: document.getElementById("notesInput"),
   notesDictateButton: document.querySelector("[data-dictate-notes]"),
   addQaButton: document.getElementById("addQaButton"),
+  completeNextButton: document.getElementById("completeNextButton"),
   exportLink: document.getElementById("exportLink"),
   prevButton: document.getElementById("prevButton"),
   nextButton: document.getElementById("nextButton"),
@@ -101,10 +103,12 @@ function currentImage() {
 function currentItem() {
   if (!state.currentId || !state.currentUser) return null;
   if (!state.annotations.items[state.currentId]) {
-    state.annotations.items[state.currentId] = { qa: [], notes: "", updated_at: Date.now() };
+    state.annotations.items[state.currentId] = { qa: [], notes: "", completed: false, completed_at: null, updated_at: Date.now() };
   }
   const item = state.annotations.items[state.currentId];
   if (!Array.isArray(item.qa)) item.qa = [];
+  item.completed = Boolean(item.completed);
+  item.completed_at ||= null;
   return item;
 }
 
@@ -118,6 +122,10 @@ function hasAnnotation(imageId) {
   if (!item) return false;
   const hasQa = (item.qa || []).some((qa) => isQaSaved(qa));
   return hasQa || Boolean(item.notes?.trim());
+}
+
+function isImageComplete(imageId) {
+  return Boolean(state.annotations.items[imageId]?.completed);
 }
 
 function isQaSaved(qa) {
@@ -136,6 +144,8 @@ function qaDraftValue(qa, key) {
 function normalizeLoadedAnnotations() {
   Object.values(state.annotations.items || {}).forEach((item) => {
     if (!Array.isArray(item.qa)) item.qa = [];
+    item.completed = Boolean(item.completed);
+    item.completed_at ||= null;
     item.qa.forEach((qa) => {
       qa.id ||= `qa_${Date.now()}_${Math.random().toString(16).slice(2)}`;
       if (!qa.saved_at && (qa.question?.trim() || qa.answer?.trim())) {
@@ -480,6 +490,32 @@ function updateNotes(value) {
   queueSave();
 }
 
+function completeCurrentImageAndNext() {
+  const item = currentItem();
+  if (!item || !state.currentId) return;
+
+  const before = filteredImages();
+  const currentIndex = Math.max(0, before.findIndex((image) => image.id === state.currentId));
+  const now = Date.now();
+  item.completed = true;
+  item.completed_at = item.completed_at || now;
+  item.updated_at = now;
+
+  saveAnnotations();
+
+  const after = filteredImages();
+  if (!after.length) {
+    renderAll({ preserveListScroll: true });
+    return;
+  }
+
+  const sameImageIndex = after.findIndex((image) => image.id === state.currentId);
+  const nextIndex = sameImageIndex >= 0
+    ? Math.min(sameImageIndex + 1, after.length - 1)
+    : Math.min(currentIndex, after.length - 1);
+  setCurrentImage(after[nextIndex].id, { preserveListScroll: true });
+}
+
 function queueSave() {
   if (!state.currentUser) return;
   updateStatus("Saving");
@@ -545,8 +581,15 @@ function annotationsForSave() {
         saved_at: pair.saved_at,
       }));
     const notes = item.notes || "";
-    if (qa.length || notes.trim()) {
-      items[imageId] = { qa, notes, updated_at: item.updated_at || Date.now() };
+    const completed = Boolean(item.completed);
+    if (qa.length || notes.trim() || completed) {
+      items[imageId] = {
+        qa,
+        notes,
+        completed,
+        completed_at: item.completed_at || null,
+        updated_at: item.updated_at || Date.now(),
+      };
     }
   });
   return { version: 1, user: state.currentUser, items };
@@ -604,11 +647,16 @@ function exportAnnotationsCsv(event) {
 
 function filteredImages() {
   const dataset = els.datasetFilter.value;
+  const completion = els.completionFilter.value;
   const query = els.searchInput.value.trim().toLowerCase();
   return state.images.filter((image) => {
     const datasetOk = dataset === "all" || image.dataset === dataset;
+    const completeOk =
+      completion === "all" ||
+      (completion === "complete" && isImageComplete(image.id)) ||
+      (completion === "incomplete" && !isImageComplete(image.id));
     const haystack = `${image.filename} ${image.dataset} ${Object.values(image.metadata || {}).join(" ")}`.toLowerCase();
-    return datasetOk && (!query || haystack.includes(query));
+    return datasetOk && completeOk && (!query || haystack.includes(query));
   });
 }
 
@@ -619,11 +667,12 @@ function renderImageList(options = {}) {
 
   state.filteredImages.forEach((image) => {
     const button = document.createElement("button");
-    button.className = `image-row ${image.id === state.currentId ? "active" : ""} ${hasAnnotation(image.id) ? "done" : ""}`;
+    const isComplete = isImageComplete(image.id);
+    button.className = `image-row ${image.id === state.currentId ? "active" : ""} ${hasAnnotation(image.id) ? "done" : ""} ${isComplete ? "complete" : ""}`;
     button.type = "button";
     button.innerHTML = `
       <span>
-        <strong>${escapeHtml(image.filename)}</strong>
+        <strong>${escapeHtml(image.filename)}${isComplete ? `<span class="complete-check" title="Complete" aria-label="Complete">✓</span>` : ""}</strong>
         <span>${escapeHtml(compactLabel(image))}</span>
       </span>
       <span class="dataset-pill">${escapeHtml(image.dataset)}</span>
@@ -650,20 +699,27 @@ function renderDatasetOptions() {
 function renderProgress() {
   const images = filteredImages();
   const visibleIds = new Set(images.map((image) => image.id));
-  const annotated = images.filter((image) => hasAnnotation(image.id)).length;
+  const completed = images.filter((image) => isImageComplete(image.id)).length;
   const total = images.length;
   const qaTotal = Object.entries(state.annotations.items || {}).reduce((count, [imageId, item]) => {
     if (!visibleIds.has(imageId)) return count;
     return count + (item.qa || []).filter((qa) => isQaSaved(qa)).length;
   }, 0);
-  els.progressText.textContent = `${annotated} of ${total} annotated`;
+  els.progressText.textContent = `${completed} of ${total} completed`;
   els.qaCount.textContent = `${qaTotal} Q&A`;
-  els.progressFill.style.width = total ? `${(annotated / total) * 100}%` : "0%";
+  els.progressFill.style.width = total ? `${(completed / total) * 100}%` : "0%";
 }
 
 function renderSelectedImage() {
   const image = currentImage();
-  if (!image) return;
+  if (!image) {
+    els.imageTitle.textContent = "No image selected";
+    els.imageSubtitle.textContent = "";
+    els.roiImage.removeAttribute("src");
+    els.roiImage.alt = "Selected ROI";
+    els.metadataStrip.innerHTML = "";
+    return;
+  }
   els.imageTitle.textContent = image.filename;
   els.imageSubtitle.textContent = `${image.dataset} / ${compactLabel(image)}`;
   els.roiImage.src = image.url;
@@ -760,6 +816,13 @@ function renderAll(options = {}) {
   renderProgress();
   renderSelectedImage();
   renderQa();
+}
+
+function applyImageFilters() {
+  renderImageList();
+  renderProgress();
+  if (state.filteredImages.some((image) => image.id === state.currentId)) return;
+  setCurrentImage(state.filteredImages[0]?.id || null);
 }
 
 function moveSelection(delta) {
@@ -895,18 +958,13 @@ function bindEvents() {
   });
   els.logoutButton.addEventListener("click", logout);
   els.exportLink.addEventListener("click", exportAnnotationsCsv);
-  els.datasetFilter.addEventListener("change", () => {
-    renderImageList();
-    renderProgress();
-    if (!state.filteredImages.some((image) => image.id === state.currentId) && state.filteredImages[0]) {
-      setCurrentImage(state.filteredImages[0].id);
-    }
-  });
+  els.datasetFilter.addEventListener("change", applyImageFilters);
+  els.completionFilter.addEventListener("change", applyImageFilters);
   els.searchInput.addEventListener("input", () => {
-    renderImageList();
-    renderProgress();
+    applyImageFilters();
   });
   els.addQaButton.addEventListener("click", addQaPair);
+  els.completeNextButton.addEventListener("click", completeCurrentImageAndNext);
   els.notesInput.addEventListener("input", (event) => updateNotes(event.target.value));
   els.notesDictateButton.addEventListener("click", () => toggleDictation(els.notesDictateButton, els.notesInput));
   els.prevButton.addEventListener("click", () => moveSelection(-1));

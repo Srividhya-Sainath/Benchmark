@@ -55,6 +55,14 @@
             </select>
           </label>
           <label class="field">
+            <span>Status</span>
+            <select id="completionFilter">
+              <option value="all">All images</option>
+              <option value="complete">Complete</option>
+              <option value="incomplete">Incomplete</option>
+            </select>
+          </label>
+          <label class="field">
             <span>Search</span>
             <input id="searchInput" placeholder="Filename or label" />
           </label>
@@ -109,6 +117,7 @@
             </div>
             <div class="panel-actions">
               <a id="exportLink" class="text-button" href="#">Export CSV</a>
+              <button id="completeNextButton" class="text-button complete-next-button" type="button">Complete & Next</button>
               <button id="addQaButton" class="primary-button">+ Add pair</button>
             </div>
           </div>

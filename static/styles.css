@@ -459,9 +459,14 @@ textarea:focus {
 .panel-actions {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   flex-shrink: 0;
   flex-wrap: wrap;
+}
+.csv-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .icon-button,

@@ -68,6 +68,15 @@
           </label>
         </div>
 
+        <div class="datasets-block">
+          <span class="datasets-label">Datasets</span>
+          <div class="datasets-links">
+            <a href="https://www.bracs.icar.cnr.it/" target="_blank" rel="noopener noreferrer">BRACS</a>
+            <a href="https://panda.grand-challenge.org/data/" target="_blank" rel="noopener noreferrer">PANDA</a>
+            <a href="https://aggc22.grand-challenge.org/" target="_blank" rel="noopener noreferrer">AGGC</a>
+          </div>
+        </div>
+
         <div class="progress-block">
           <div class="progress-copy">
             <span id="progressText">0 of 0 annotated</span>
@@ -116,12 +125,14 @@
               <p id="annotationSummary">0 pairs on this image</p>
             </div>
             <div class="panel-actions">
-              <div class="csv-actions">
-                <button id="exportLink" class="text-button" type="button">Export CSV</button>
-                <input id="importCsvInput" class="visually-hidden" type="file" accept=".csv,text/csv" />
-                <button id="importCsvButton" class="text-button" type="button">Import CSV</button>
-              </div>
               <button id="addQaButton" class="primary-button">+ Add pair</button>
+            </div>
+          </div>
+          <div class="panel-actions-secondary">
+            <div class="csv-actions">
+              <button id="exportLink" class="text-button" type="button">Export CSV</button>
+              <input id="importCsvInput" class="visually-hidden" type="file" accept=".csv,text/csv" />
+              <button id="importCsvButton" class="text-button" type="button">Import CSV</button>
             </div>
           </div>
 

@@ -463,10 +463,57 @@ textarea:focus {
   flex-shrink: 0;
   flex-wrap: wrap;
 }
+
+.panel-actions-secondary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  border-top: 1px solid var(--line);
+  background: #fffaf7;
+}
+
 .csv-actions {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.datasets-block {
+  display: grid;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.datasets-label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.datasets-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.datasets-links a {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #e3d8ce;
+  border-radius: var(--radius);
+  background: #fffaf7;
+  color: var(--teal);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 650;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.datasets-links a:hover {
+  border-color: var(--teal);
+  background: #eef6f5;
 }
 
 .icon-button,

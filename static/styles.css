@@ -379,7 +379,7 @@ textarea:focus {
 }
 
 .complete-next-button {
-  width: 100%;
+  min-width: 210px;
   border-color: #2f8d5b;
   background: #2f8d5b;
   color: white;
@@ -744,7 +744,12 @@ textarea:focus {
 }
 
 .completion-footer {
-  padding: 0 14px 14px;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-height: 84px;
+  padding: 14px;
   background: var(--panel);
 }
 
@@ -824,6 +829,14 @@ textarea:focus {
   .viewer-panel,
   .annotation-panel {
     min-height: auto;
+  }
+
+  .completion-footer {
+    min-height: 0;
+  }
+
+  .complete-next-button {
+    width: 100%;
   }
 
   .qa-list {

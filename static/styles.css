@@ -206,7 +206,7 @@ h2 {
 .dictate-button {
   display: inline-grid;
   place-items: center;
-  min-width: 48px;
+  min-width: 82px;
   min-height: 28px;
   padding: 0 9px;
   border: 1px solid #d7c8bb;

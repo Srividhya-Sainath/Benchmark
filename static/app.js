@@ -306,6 +306,37 @@ function speechRecognitionConstructor() {
   return window.SpeechRecognition || window.webkitSpeechRecognition || null;
 }
 
+function isSpeechSupported() {
+  return Boolean(speechRecognitionConstructor());
+}
+
+function setDictationButtonState(button, stateName) {
+  button.classList.toggle("is-recording", stateName === "listening");
+  button.setAttribute("aria-pressed", stateName === "listening" ? "true" : "false");
+  button.disabled = stateName === "unavailable";
+
+  if (stateName === "listening") {
+    button.textContent = "Listening";
+    button.title = "Stop transcribing";
+    return;
+  }
+
+  if (stateName === "unavailable") {
+    button.textContent = "Unavailable";
+    button.title = "Speech recognition is unavailable in this browser. Try Chrome or Edge.";
+    return;
+  }
+
+  button.textContent = "Rec";
+  button.title = "Transcribe";
+}
+
+function updateDictationControls(root = document) {
+  root.querySelectorAll(".dictate-button").forEach((button) => {
+    setDictationButtonState(button, isSpeechSupported() ? "ready" : "unavailable");
+  });
+}
+
 function applyTranscript(textarea, transcript) {
   const base = state.dictation?.baseValue || "";
   const separator = base && transcript ? " " : "";
@@ -317,9 +348,7 @@ function stopDictation() {
   const active = state.dictation;
   if (!active) return;
   state.dictation = null;
-  active.button.classList.remove("is-recording");
-  active.button.textContent = "Rec";
-  active.button.setAttribute("aria-pressed", "false");
+  setDictationButtonState(active.button, "ready");
   try {
     active.recognition.stop();
   } catch {
@@ -331,7 +360,7 @@ function toggleDictation(button, textarea) {
   const Recognition = speechRecognitionConstructor();
   if (!Recognition) {
     updateStatus("Speech unavailable");
-    button.disabled = true;
+    setDictationButtonState(button, "unavailable");
     return;
   }
 
@@ -354,9 +383,7 @@ function toggleDictation(button, textarea) {
     finalTranscript: "",
   };
   state.dictation = active;
-  button.classList.add("is-recording");
-  button.textContent = "Stop";
-  button.setAttribute("aria-pressed", "true");
+  setDictationButtonState(button, "listening");
   textarea.focus();
   updateStatus("Listening");
 
@@ -384,9 +411,7 @@ function toggleDictation(button, textarea) {
   recognition.onend = () => {
     if (state.dictation !== active) return;
     state.dictation = null;
-    button.classList.remove("is-recording");
-    button.textContent = "Rec";
-    button.setAttribute("aria-pressed", "false");
+    setDictationButtonState(button, "ready");
     updateStatus(isStaticMode() ? "Saved locally" : "Saved");
   };
 
@@ -705,6 +730,7 @@ function renderQa() {
           const textarea = wrapper.querySelector(`textarea[data-field="${button.dataset.dictateField}"]`);
           button.addEventListener("click", () => toggleDictation(button, textarea));
         });
+        updateDictationControls(wrapper);
       } else {
         wrapper.innerHTML = `
           <div class="qa-saved-row">
@@ -921,6 +947,7 @@ function bindEvents() {
 
 async function init() {
   bindEvents();
+  updateDictationControls();
   els.loginButton.disabled = true;
   state.images = await loadImages();
   configureBackendUi();

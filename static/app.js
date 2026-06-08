@@ -52,6 +52,8 @@ const els = {
   addQaButton: document.getElementById("addQaButton"),
   completeNextButton: document.getElementById("completeNextButton"),
   exportLink: document.getElementById("exportLink"),
+  importCsvButton: document.getElementById("importCsvButton"),
+  importCsvInput: document.getElementById("importCsvInput"),
   prevButton: document.getElementById("prevButton"),
   nextButton: document.getElementById("nextButton"),
   zoomOutButton: document.getElementById("zoomOutButton"),
@@ -600,11 +602,12 @@ function annotationRows() {
   const rows = [];
   Object.entries(state.annotations.items || {}).forEach(([imageId, item]) => {
     const image = imagesById.get(imageId) || {};
-    (item.qa || []).forEach((qa, index) => {
+    const qaRows = (item.qa || [])
+      .filter((qa) => isQaSaved(qa))
+      .map((qa, index) => {
       const question = String(qa.question || "").trim();
       const answer = String(qa.answer || "").trim();
-      if (!question && !answer) return;
-      rows.push({
+      return {
         user: state.currentUser,
         dataset: image.dataset || "",
         filename: image.filename || imageId,
@@ -613,9 +616,32 @@ function annotationRows() {
         question,
         answer,
         notes: String(item.notes || "").trim(),
+        completed: Boolean(item.completed) ? "true" : "false",
+        completed_at: String(item.completed_at || ""),
+        updated_at: String(item.updated_at || ""),
+      };
+    });
+
+    if (qaRows.length) {
+      rows.push(...qaRows);
+      return;
+    }
+
+    if (String(item.notes || "").trim() || item.completed) {
+      rows.push({
+        user: state.currentUser,
+        dataset: image.dataset || "",
+        filename: image.filename || imageId,
+        image_id: imageId,
+        qa_index: "",
+        question: "",
+        answer: "",
+        notes: String(item.notes || "").trim(),
+        completed: Boolean(item.completed) ? "true" : "false",
+        completed_at: String(item.completed_at || ""),
         updated_at: String(item.updated_at || ""),
       });
-    });
+    }
   });
   return rows;
 }
@@ -625,10 +651,129 @@ function csvEscape(value) {
   return /[",\n\r]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
 }
 
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let value = "";
+  let quoted = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    const next = text[index + 1];
+    if (quoted) {
+      if (char === '"' && next === '"') {
+        value += '"';
+        index += 1;
+      } else if (char === '"') {
+        quoted = false;
+      } else {
+        value += char;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      quoted = true;
+    } else if (char === ",") {
+      row.push(value);
+      value = "";
+    } else if (char === "\n") {
+      row.push(value);
+      rows.push(row);
+      row = [];
+      value = "";
+    } else if (char !== "\r") {
+      value += char;
+    }
+  }
+
+  if (value || row.length) {
+    row.push(value);
+    rows.push(row);
+  }
+
+  const [header = [], ...body] = rows;
+  return body
+    .filter((cells) => cells.some((cell) => cell.trim()))
+    .map((cells) => Object.fromEntries(header.map((field, index) => [field, cells[index] || ""])));
+}
+
+function truthyCsvValue(value) {
+  return ["1", "true", "yes", "complete", "completed"].includes(String(value || "").trim().toLowerCase());
+}
+
+function imageIdFromImportRow(row) {
+  if (row.image_id) return row.image_id;
+  if (row.dataset && row.filename) return `${row.dataset}/${row.filename}`;
+  return "";
+}
+
+async function importAnnotationsCsv(file) {
+  if (!file || !state.currentUser) return;
+  try {
+    const rows = parseCsv(await file.text());
+    const imagesById = new Map(state.images.map((image) => [image.id, image]));
+    const imported = new Map();
+    const now = Date.now();
+
+    rows.forEach((row) => {
+      const imageId = imageIdFromImportRow(row);
+      if (!imageId || !imagesById.has(imageId)) return;
+
+      if (!imported.has(imageId)) {
+        imported.set(imageId, {
+          qa: [],
+          notes: row.notes || "",
+          completed: truthyCsvValue(row.completed),
+          completed_at: row.completed_at ? Number(row.completed_at) || row.completed_at : null,
+          updated_at: row.updated_at ? Number(row.updated_at) || row.updated_at : now,
+        });
+      }
+
+      const item = imported.get(imageId);
+      if (row.notes && !item.notes) item.notes = row.notes;
+      if (truthyCsvValue(row.completed)) item.completed = true;
+      if (row.completed_at && !item.completed_at) item.completed_at = Number(row.completed_at) || row.completed_at;
+
+      const question = String(row.question || "").trim();
+      const answer = String(row.answer || "").trim();
+      if (!question && !answer) return;
+      const timestamp = Number(row.updated_at) || now;
+      item.qa.push({
+        id: `qa_import_${imageId}_${row.qa_index || item.qa.length + 1}`.replace(/[^A-Za-z0-9_-]+/g, "_"),
+        question,
+        answer,
+        created_at: timestamp,
+        updated_at: timestamp,
+        saved_at: timestamp,
+      });
+    });
+
+    if (!imported.size) {
+      updateStatus("Import empty");
+      return;
+    }
+
+    imported.forEach((item, imageId) => {
+      state.annotations.items[imageId] = item;
+    });
+    normalizeLoadedAnnotations();
+    saveAnnotations();
+    const visibleImages = filteredImages();
+    state.currentId = visibleImages.find((image) => imported.has(image.id))?.id || visibleImages[0]?.id || state.currentId;
+    renderAll({ preserveListScroll: true });
+    updateStatus(`Imported ${imported.size} images`);
+  } catch {
+    updateStatus("Import error");
+  } finally {
+    els.importCsvInput.value = "";
+  }
+}
+
 function exportAnnotationsCsv(event) {
   if (!isStaticMode()) return;
   event.preventDefault();
-  const fieldnames = ["user", "dataset", "filename", "image_id", "qa_index", "question", "answer", "notes", "updated_at"];
+  const fieldnames = ["user", "dataset", "filename", "image_id", "qa_index", "question", "answer", "notes", "completed", "completed_at", "updated_at"];
   const lines = [
     fieldnames.join(","),
     ...annotationRows().map((row) => fieldnames.map((field) => csvEscape(row[field])).join(",")),
@@ -958,6 +1103,8 @@ function bindEvents() {
   });
   els.logoutButton.addEventListener("click", logout);
   els.exportLink.addEventListener("click", exportAnnotationsCsv);
+  els.importCsvButton.addEventListener("click", () => els.importCsvInput.click());
+  els.importCsvInput.addEventListener("change", (event) => importAnnotationsCsv(event.target.files?.[0]));
   els.datasetFilter.addEventListener("change", applyImageFilters);
   els.completionFilter.addEventListener("change", applyImageFilters);
   els.searchInput.addEventListener("input", () => {

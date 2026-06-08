@@ -213,12 +213,13 @@ def annotation_rows(user: str) -> list[dict[str, str]]:
     for image_id, item in sorted(data.get("items", {}).items()):
         image = images_by_id.get(image_id, {})
         qa_pairs = item.get("qa", [])
+        item_rows: list[dict[str, str]] = []
         for index, qa in enumerate(qa_pairs, start=1):
             question = str(qa.get("question", "")).strip()
             answer = str(qa.get("answer", "")).strip()
             if not question and not answer:
                 continue
-            rows.append(
+            item_rows.append(
                 {
                     "user": data.get("user", ""),
                     "dataset": image.get("dataset", ""),
@@ -228,6 +229,26 @@ def annotation_rows(user: str) -> list[dict[str, str]]:
                     "question": question,
                     "answer": answer,
                     "notes": str(item.get("notes", "")).strip(),
+                    "completed": "true" if item.get("completed") else "false",
+                    "completed_at": str(item.get("completed_at", "")),
+                    "updated_at": str(item.get("updated_at", "")),
+                }
+            )
+        if item_rows:
+            rows.extend(item_rows)
+        elif str(item.get("notes", "")).strip() or item.get("completed"):
+            rows.append(
+                {
+                    "user": data.get("user", ""),
+                    "dataset": image.get("dataset", ""),
+                    "filename": image.get("filename", image_id),
+                    "image_id": image_id,
+                    "qa_index": "",
+                    "question": "",
+                    "answer": "",
+                    "notes": str(item.get("notes", "")).strip(),
+                    "completed": "true" if item.get("completed") else "false",
+                    "completed_at": str(item.get("completed_at", "")),
                     "updated_at": str(item.get("updated_at", "")),
                 }
             )
@@ -417,6 +438,8 @@ class Handler(BaseHTTPRequestHandler):
             "question",
             "answer",
             "notes",
+            "completed",
+            "completed_at",
             "updated_at",
         ]
         out = io.StringIO()

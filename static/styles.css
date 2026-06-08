@@ -379,14 +379,14 @@ textarea:focus {
 }
 
 .complete-next-button {
-  border-color: #93b79f;
-  background: #f1f8f3;
-  color: #2f6d48;
+  width: 100%;
+  border-color: #2f8d5b;
+  background: #2f8d5b;
+  color: white;
 }
 
 .complete-next-button:hover {
-  border-color: #2f8d5b;
-  background: #e3f2e8;
+  background: #236d46;
 }
 
 .workspace {
@@ -741,6 +741,11 @@ textarea:focus {
 .notes-field {
   padding: 14px;
   border-top: 1px solid var(--line);
+}
+
+.completion-footer {
+  padding: 0 14px 14px;
+  background: var(--panel);
 }
 
 @media (max-width: 1100px) {

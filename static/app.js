@@ -10,6 +10,7 @@ const state = {
   saveTimer: null,
   editingQaIds: new Set(),
   pan: null,
+  dictation: null,
 };
 
 const config = {
@@ -18,6 +19,7 @@ const config = {
   hfImageBaseUrl: "",
   staticPassword: "",
   annotationStoragePrefix: "pathologyQaAnnotations",
+  speechLanguage: "en-US",
   ...(window.PATHOLOGY_QA_CONFIG || {}),
 };
 
@@ -45,6 +47,7 @@ const els = {
   qaList: document.getElementById("qaList"),
   annotationSummary: document.getElementById("annotationSummary"),
   notesInput: document.getElementById("notesInput"),
+  notesDictateButton: document.querySelector("[data-dictate-notes]"),
   addQaButton: document.getElementById("addQaButton"),
   exportLink: document.getElementById("exportLink"),
   prevButton: document.getElementById("prevButton"),
@@ -297,6 +300,102 @@ function updateQa(id, key, value) {
   if (key === "answer") qa._draftAnswer = value;
   qa.updated_at = Date.now();
   item.updated_at = Date.now();
+}
+
+function speechRecognitionConstructor() {
+  return window.SpeechRecognition || window.webkitSpeechRecognition || null;
+}
+
+function applyTranscript(textarea, transcript) {
+  const base = state.dictation?.baseValue || "";
+  const separator = base && transcript ? " " : "";
+  textarea.value = `${base}${separator}${transcript}`.replace(/\s+$/g, "");
+  textarea.dispatchEvent(new Event("input", { bubbles: true }));
+}
+
+function stopDictation() {
+  const active = state.dictation;
+  if (!active) return;
+  state.dictation = null;
+  active.button.classList.remove("is-recording");
+  active.button.textContent = "Rec";
+  active.button.setAttribute("aria-pressed", "false");
+  try {
+    active.recognition.stop();
+  } catch {
+    // Recognition may already have stopped.
+  }
+}
+
+function toggleDictation(button, textarea) {
+  const Recognition = speechRecognitionConstructor();
+  if (!Recognition) {
+    updateStatus("Speech unavailable");
+    button.disabled = true;
+    return;
+  }
+
+  if (state.dictation?.button === button) {
+    stopDictation();
+    return;
+  }
+  stopDictation();
+
+  const recognition = new Recognition();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+  recognition.lang = config.speechLanguage;
+
+  const active = {
+    recognition,
+    button,
+    textarea,
+    baseValue: textarea.value.trim(),
+    finalTranscript: "",
+  };
+  state.dictation = active;
+  button.classList.add("is-recording");
+  button.textContent = "Stop";
+  button.setAttribute("aria-pressed", "true");
+  textarea.focus();
+  updateStatus("Listening");
+
+  recognition.onresult = (event) => {
+    if (state.dictation !== active) return;
+    let interimTranscript = "";
+    for (let index = event.resultIndex; index < event.results.length; index += 1) {
+      const transcript = event.results[index][0]?.transcript || "";
+      if (event.results[index].isFinal) {
+        active.finalTranscript = `${active.finalTranscript} ${transcript}`.trim();
+      } else {
+        interimTranscript = `${interimTranscript} ${transcript}`.trim();
+      }
+    }
+    const transcript = `${active.finalTranscript} ${interimTranscript}`.trim();
+    applyTranscript(textarea, transcript);
+  };
+
+  recognition.onerror = () => {
+    if (state.dictation !== active) return;
+    updateStatus("Speech error");
+    stopDictation();
+  };
+
+  recognition.onend = () => {
+    if (state.dictation !== active) return;
+    state.dictation = null;
+    button.classList.remove("is-recording");
+    button.textContent = "Rec";
+    button.setAttribute("aria-pressed", "false");
+    updateStatus(isStaticMode() ? "Saved locally" : "Saved");
+  };
+
+  try {
+    recognition.start();
+  } catch {
+    updateStatus("Speech error");
+    stopDictation();
+  }
 }
 
 function editQaPair(id) {
@@ -578,11 +677,17 @@ function renderQa() {
           <button class="remove-button" title="Remove pair" aria-label="Remove pair">x</button>
         </div>
         <label class="field">
-          <span>Question</span>
+          <div class="field-head">
+            <span>Question</span>
+            <button class="dictate-button" type="button" data-dictate-field="question" title="Transcribe question" aria-label="Transcribe question">Rec</button>
+          </div>
           <textarea rows="3" data-field="question" placeholder="Question">${escapeHtml(qaDraftValue(qa, "question"))}</textarea>
         </label>
         <label class="field">
-          <span>Answer</span>
+          <div class="field-head">
+            <span>Answer</span>
+            <button class="dictate-button" type="button" data-dictate-field="answer" title="Transcribe answer" aria-label="Transcribe answer">Rec</button>
+          </div>
           <textarea rows="4" data-field="answer" placeholder="Answer">${escapeHtml(qaDraftValue(qa, "answer"))}</textarea>
         </label>
         <div class="qa-actions">
@@ -595,6 +700,10 @@ function renderQa() {
         wrapper.querySelector(".qa-save-button").addEventListener("click", () => saveQaPair(qa.id));
         wrapper.querySelectorAll("textarea").forEach((textarea) => {
           textarea.addEventListener("input", (event) => updateQa(qa.id, event.target.dataset.field, event.target.value));
+        });
+        wrapper.querySelectorAll("[data-dictate-field]").forEach((button) => {
+          const textarea = wrapper.querySelector(`textarea[data-field="${button.dataset.dictateField}"]`);
+          button.addEventListener("click", () => toggleDictation(button, textarea));
         });
       } else {
         wrapper.innerHTML = `
@@ -773,6 +882,7 @@ function bindEvents() {
   });
   els.addQaButton.addEventListener("click", addQaPair);
   els.notesInput.addEventListener("input", (event) => updateNotes(event.target.value));
+  els.notesDictateButton.addEventListener("click", () => toggleDictation(els.notesDictateButton, els.notesInput));
   els.prevButton.addEventListener("click", () => moveSelection(-1));
   els.nextButton.addEventListener("click", () => moveSelection(1));
   els.zoomOutButton.addEventListener("click", () => {
